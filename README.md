@@ -3,13 +3,13 @@
 
 Структура репозитория:
 
--/pict
-    /data processing - Обработка данных
-        data.csv - исходные данные
-        preprocessing.ipynb - предобработка данных
+    -/pict
+        /data processing - Обработка данных
+            data.csv - исходные данные
+            preprocessing.ipynb - предобработка данных
 
-    /model - Часть с ML (тест модели на данных)
-        data_new.csv - преобработанный датасет, который используется в baseline.ipynb
-        baseline.ipynb - Тест xgboost
+        /model - Часть с ML (тест модели на данных)
+            data_new.csv - преобработанный датасет, который используется в baseline.ipynb
+            baseline.ipynb - Тест xgboost
 
-    /images - Сохраненные графики
+        /images - Сохраненные графики
