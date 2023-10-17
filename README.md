@@ -8,14 +8,19 @@
 ## Сontent
 
 1. [Overview](#overview)
-2. [Usage](#usage)
-3. [Contribute](#contribute)
-4. [Repository structure](#structure)
-5. [Listing](#Listing)
-6. [Useful links](#links)
+2. [Data Processing](#processing)
+3. [Usage](#usage)
+4. [Contribute](#contribute)
+5. [Repository structure](#structure)
+6. [Listing](#Listing)
+7. [Useful links](#links)
 ## <a name="overview"></a>Project overview
 
 *In the last decade, machine learning (ML) proved itself as a powerful tool for organic synthesis planning. One of the key research areas therein is the prediction of chemical reaction yield, a key parameter for selecting reaction conditions and evaluating success of a synthesis. Recently, several ML models have been reported to predict reaction yields based on high-throughput experiment datasets. However, due to sparse and insufficient data as well as limited capacity of reaction representations, the performance and applicability of such ML models remain limited. In this work, we apply ML methods to predict reaction yields based on molecular fingerprints as state-of-the-art reaction representations using the publicly available USPTO organic* reactions dataset.   
+
+## Data processing
+
+The chemical reaction database in SMILES format was standardized: Reactant1.Reactant2...ReactantN>>Product1.Product2.ProductN. The strings were grouped based on the number of reactants. The most abundant groups, including one and two reactants, were selected for analysis. Morgan molecular fingerprints and drfp were then obtained for each reaction. Fingerprints represent the encoding of a molecule using a binary vector, where each value indicates the presence or absence of a specific substructure.
 
 ## Repository structure
 
