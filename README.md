@@ -20,7 +20,7 @@
 
 ## Data processing
 
-*The chemical reaction database in SMILES format was standardized: Reactant1.Reactant2...ReactantN>>Product1.Product2.ProductN. The strings were grouped based on the number of reactants. The most abundant groups, including one and two reactants, were selected for analysis. Morgan molecular fingerprints and drfp were then obtained for each reaction. Fingerprints represent the encoding of a molecule using a binary vector, where each value indicates the presence or absence of a specific substructure.
+The chemical reaction database in SMILES format was standardized: Reactant1.Reactant2...ReactantN>>Product1.Product2.ProductN. The strings were grouped based on the number of reactants. The most abundant groups, including one and two reactants, were selected for analysis. Morgan molecular fingerprints and drfp were then obtained for each reaction. Fingerprints represent the encoding of a molecule using a binary vector, where each value indicates the presence or absence of a specific substructure.
 
 ## Repository structure
 
